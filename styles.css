@@ -3,6 +3,13 @@ main {
     flex-direction: row;
 }
 
+dialog {
+    outline: none; 
+    border: none; 
+    background: bisque;
+    border: 1px solid green;
+}
+
 #dates {
     position: absolute;
     top: 425px;

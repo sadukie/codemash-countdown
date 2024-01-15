@@ -1,5 +1,10 @@
 <html>
     <head>
+        <script type="module">
+            const loading = document.getElementById('loading');
+            addEventListener('py:ready', () => loading.close());
+            loading.showModal();
+        </script>
         <title>Countdown to CodeMash 2025</title>
         <!-- Recommended meta tags -->
         <meta charset="UTF-8">
@@ -18,6 +23,9 @@
             <h1>Countdown to the CodeMash Beach Party</h1>
         </header>
         <main>
+            <dialog id="loading">
+                <h2>Loading...</h2>
+            </dialog>
             <img src="./assets/beach-party-crop.png" alt="CodeMash Beach Party - January 14-17, 2025 - Kalahari Resorts in Sandusky, Ohio">
             <section id="dates">
                 <section id="codemash2025"><h2>CodeMash 2025 Date and Time: </h2><div id="codemashDate"></div></section>
@@ -30,7 +38,7 @@
             </section>
         </main>
         <footer>
-            Written in <a href="https://pyscript.net">PyScript</a> - Created by <a href="https://sadukie.github.io">Sadukie</a>
+            Created by <a href="https://sadukie.github.io">Sadukie</a> - Written in <a href="https://pyscript.net">PyScript</a> -  Inspired by <a href="https://pyscript.com/@examples/simple-clock/latest">Simple Clock</a>
         </footer>
     </body>
 </html>
