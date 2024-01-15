@@ -24,6 +24,10 @@ dialog {
     justify-content: center;
 }
 
+#countdown p {
+    margin: 20px;
+}
+
 #countdown section {
     padding:5px;
     margin: 5px;
