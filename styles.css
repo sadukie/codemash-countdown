@@ -56,3 +56,7 @@ dialog {
     font-size: x-large;
     padding: 15px;
 }
+
+#links {
+    display: block;
+}
