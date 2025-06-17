@@ -11,8 +11,6 @@ dialog {
 }
 
 #dates {
-    position: absolute;
-    top: 425px;
     left: 40px;
     display: flex;
     flex-direction: column;
@@ -46,7 +44,7 @@ dialog {
     text-align: center;
 }
 
-#codemash2025{
+#countdownTitle{
     padding: 10px;
     background-color: bisque;
     display: flex;
@@ -54,7 +52,7 @@ dialog {
     align-items: center;
 }
 
-#codemashDate {
+#endingDate {
     font-size: x-large;
     padding: 15px;
 }
